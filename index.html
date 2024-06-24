@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <div  class="box">
+        <div class="table table-bordered">
+    <div class="table">
+      <h1 id="title">Pagination</h1>
+      <p id="description">Using HTML,CSS,Bootstrap</p>
+      <div id="displayArea" class="anSpace">
+        <p class="text-center">Page <span id="currentPage" class="link"></span> / <span id="totalPages" ></span></p>
+        <div>
+                <table id="table" class ="table table-bordered">
+                  <thead>
+                    <th>
+          
+                        <tr>
+                         <th>id</th>
+                         <th>Name</th>
+                         <th>Email</th>
+                        </tr>
+                      
+                    </th>
+                    <tbody id="tbody">
+                    
+                  </tbody>
+                </table>
+              </div>
+              </div>
+    
+      </div>
+      <div class="anSpace ">
+        <div id="buttons" class="d-flex justify-content-center">
+            
+            <button  class="btn btn-info" id="prev" ><i class="fa fa-chevron-left"></i >Previous</button>
+            
+            <button class="btn btn-info" id="next" >  <i class="fa fa-chevron-right"></i>Next</button>
+            
+          </div>
+          <div class="buttons" id="pageBtn"></div>
+      
+      </div>
+      
+    </div>
+    </div>
+     </div>
+    
+
+
+    <script src="./js/sc.js"></script>
+
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>
